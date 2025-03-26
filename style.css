@@ -6,13 +6,13 @@ html {
     image-rendering: pixelated;
 }
 
-h1, h2, p {
+h1, h2, h3, p, a, li{
     color: white;
     font-family: PixelFont;
     font-size: 22px;
 }
 
-h2 {
+h2, h3 {
     font-size: 16px;
 }
 
@@ -54,14 +54,28 @@ p {
 }
 
 .tab {
+    /*
     margin: auto;
     margin-top: 15px;
     min-width: 300px;
     max-width: 400px;
     padding: 15px;
+    */
+
+    margin: auto;
+    margin-top: 15px;
+    padding: 15px;
+    width: 550px;
+    overflow: auto;
+    min-height: 300px;
 }
 
 .icon {
     width: 25px;
     height: 25px;
+}
+
+.icon-aligner { 
+    display: flex;
+    align-items: end;
 }
