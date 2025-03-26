@@ -6,13 +6,19 @@ html {
     image-rendering: pixelated;
 }
 
-h1, h2, h3, p, a, li{
+h1,
+h2,
+h3,
+p,
+a,
+li {
     color: white;
     font-family: PixelFont;
     font-size: 22px;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-size: 16px;
 }
 
@@ -68,6 +74,7 @@ p {
     width: 550px;
     overflow: auto;
     min-height: 300px;
+
 }
 
 .icon {
@@ -75,7 +82,7 @@ p {
     height: 25px;
 }
 
-.icon-aligner { 
+.icon-aligner {
     display: flex;
     align-items: end;
 }
