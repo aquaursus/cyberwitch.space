@@ -19,11 +19,12 @@ li {
 
 h2,
 h3 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 code {
@@ -88,8 +89,14 @@ code {
 }
 
 .icon {
+    width: 35px;
+    height: 35px;
+}
+
+.icon-small {
     width: 25px;
     height: 25px;
+    margin-right: 10px;
 }
 
 .icon-aligner {
