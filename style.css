@@ -26,6 +26,16 @@ p {
     font-size: 11px;
 }
 
+code {
+    color: white;
+    font-family: PixelFont;
+    font-size: 11px;
+    border-width: 5px;
+    border-color: #800080;
+    padding: 5px;
+    background-color: darkslategrey;
+}
+
 @font-face {
     font-family: 'PixelFont';
     src: url('PressStart2P-Regular.ttf');
