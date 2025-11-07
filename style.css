@@ -82,10 +82,10 @@ code {
     margin: auto;
     margin-top: 15px;
     padding: 15px;
-    width: 400px;
     min-width: 320px;
     overflow: auto;
     min-height: 300px;
+    width: 29%;
 }
 
 .icon {
