@@ -18,8 +18,15 @@ li {
 }
 
 h2,
-h3 {
+h3
+{
     font-size: 18px;
+}
+
+a,
+li {
+    font-size: 18px;
+    line-height: 26px;
 }
 
 p {
