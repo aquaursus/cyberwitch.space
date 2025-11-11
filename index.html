@@ -6,16 +6,18 @@
     <title>aquaursus' website</title>
     <link rel="icon" href="images/icon.png" />
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.8/dist/htmx.min.js" integrity="sha384-/TgkGk7p307TH7EXJDuUlgG3Ce1UVolAOFopFekQkkXihi5u/6OCvVKyz1W+idaz" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="title-aligner">
-        <h1 style="font-size: 32px;">
-            aquaursus' website
-        </h1>
+    
+    <div style="display: flex; justify-content: center; align-items: center; position: relative;">
+        <h1 style="font-size: 32px;">aquaursus' website</h1>
+        <button style="position: absolute; right: 15px;">RU</button>
     </div>
 
     <div class="aligner">
+    <!-- ABOUT ME BOX -->
         <div class="tab box">
             <h1>About me</h1>
             <p>Hello, im aquaursus or Anna, a trans girl from Russia. Big fan of playing da bass and Minecraft. Welcome to the place I put all my cool stuff at.</p>
@@ -44,6 +46,7 @@
             </div>
         </div>
         
+    <!-- BLOG BOX -->
         <div class="tab box">
             <div style="display: flex; justify-content: space-between;">
                 <h1>Blog</h1>
@@ -56,6 +59,7 @@
             </ul>
         </div>
         
+    <!-- NAVIGATION BOX -->
         <div class="tab box">
             <h1>Navigation</h1>
             <ul style="list-style-type: square;">
@@ -65,6 +69,8 @@
             </ul>
         </div>
     </div>
+
+    <!-- BOTTOM TEXT -->
     <div class="booty">
         <h1 style="font-size: 6px;">
             made by anna, icons from flaticon.com, font from google fonts
