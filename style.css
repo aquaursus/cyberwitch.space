@@ -4,16 +4,15 @@ html {
     background-attachment: fixed;
     background-size: cover;
     image-rendering: pixelated;
-}
-
-h1,
-h2,
-h3,
-p,
-a,
-li {
     color: white;
     font-family: PixelFont;
+}
+
+a {
+    color: white;
+}
+
+h1 {
     font-size: 22px;
 }
 
