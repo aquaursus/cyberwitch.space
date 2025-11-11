@@ -9,7 +9,7 @@ let currentLocation = document
   .getAttribute("lang-js");
 
 switch (languageFistTwo) {
-  case "it":
+  case "ru":
     if (currentLocation == "/") window.location.href = "/ru";
     break;
 
