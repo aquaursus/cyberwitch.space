@@ -120,7 +120,7 @@ button:active {
 }
 
 .booty {
-    position: fixed; /* or absolute */
+    position: absolute; /* or absolute */
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
